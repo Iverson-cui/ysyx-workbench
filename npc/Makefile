@@ -2,7 +2,7 @@ VERILATOR_CFLAGS = -MMD --build -cc  \
 				-O3 --x-assign fast --x-initial fast --noassert
 TRACE_FLAGS = --trace-fst
 # can use TOPNAME macro in cpp file
-TOPNAME = top
+TOPNAME = light
 INC_PATH ?=
 NXDC_FILES = constr/top.nxdc
 VERILATOR = verilator
